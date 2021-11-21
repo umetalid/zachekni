@@ -10,6 +10,24 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.Zachekni">
         <activity
+            android:name=".stars"
+            android:exported="true" />
+        <activity
+            android:name=".profile"
+            android:exported="true" />
+        <activity
+            android:name=".scores"
+            android:exported="true" />
+        <activity
+            android:name=".delo"
+            android:exported="true" />
+        <activity
+            android:name=".checklist"
+            android:exported="true" />
+        <activity
+            android:name=".signin"
+            android:exported="true" />
+        <activity
             android:name=".MainActivity"
             android:exported="true">
             <intent-filter>

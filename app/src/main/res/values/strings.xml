@@ -1,3 +1,21 @@
 <resources>
     <string name="app_name">zachekni</string>
+    <string name="welcome">ДОБРО ПОЖАЛОВАТЬ!</string>
+    <string name="signin">Регистрация</string>
+    <string name="mainsignin">РЕГИСТРАЦИЯ</string>
+    <string name="done">Выполнено:</string>
+    <string name="today">Сегодня:</string>
+    <string name="business">Дело №164</string>
+    <string name="name">Название</string>
+    <string name="date">Дата</string>
+    <string name="time">Время</string>
+    <string name="reminder">Напоминание</string>
+    <string name="type">Тип</string>
+    <string name="scores">Баллы: 83</string>
+    <string name="donebusiness">Выполнено: 25 дел</string>
+    <string name="expired">Просрочено: 6 дел</string>
+    <string name="darina">Дарина Уметалиева</string>
+    <string name="myscores">83 балла</string>
+
+
 </resources>
