@@ -5,18 +5,17 @@ import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.widget.ImageView
 
-class checklist : AppCompatActivity() {
+class Signin : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
-        setContentView(R.layout.activity_checklist)
+        setContentView(R.layout.activity_signin)
         //body
-        val ImageView = findViewById<ImageView>(R.id.imageView37)
+        val ImageView = findViewById<ImageView>(R.id.imageView9)
 
         ImageView.setOnClickListener {
-            startActivity(Intent(this, delo::class.java))
+            startActivity(Intent(this, Checklist::class.java))
             finish()
         }
         //body
     }
-
 }

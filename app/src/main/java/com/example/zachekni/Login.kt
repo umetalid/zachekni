@@ -3,17 +3,17 @@ package com.example.zachekni
 import android.content.Intent
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
-import android.widget.ImageView
+import android.widget.TextView
 
-class scores : AppCompatActivity() {
+class MainActivity : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
-        setContentView(R.layout.activity_scores)
+        setContentView(R.layout.login)
         //body
-        val ImageView = findViewById<ImageView>(R.id.imageView38)
+        val textView = findViewById<TextView>(R.id.signin)
 
-        ImageView.setOnClickListener {
-            startActivity(Intent(this, stars::class.java))
+        textView.setOnClickListener {
+            startActivity(Intent(this, Signin::class.java))
             finish()
         }
         //body

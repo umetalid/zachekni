@@ -10,22 +10,22 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.Zachekni">
         <activity
-            android:name=".stars"
+            android:name=".Stars"
             android:exported="true" />
         <activity
-            android:name=".profile"
+            android:name=".Profile"
             android:exported="true" />
         <activity
-            android:name=".scores"
+            android:name=".Scores"
             android:exported="true" />
         <activity
-            android:name=".delo"
+            android:name=".Delo"
             android:exported="true" />
         <activity
-            android:name=".checklist"
+            android:name=".Checklist"
             android:exported="true" />
         <activity
-            android:name=".signin"
+            android:name=".Signin"
             android:exported="true" />
         <activity
             android:name=".MainActivity"

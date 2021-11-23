@@ -4,18 +4,16 @@ import android.content.Intent
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.widget.ImageView
-import android.widget.TextView
-import org.w3c.dom.Text
 
-class MainActivity : AppCompatActivity() {
+class Stars : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
-        setContentView(R.layout.login)
+        setContentView(R.layout.activity_stars)
         //body
-        val textView = findViewById<TextView>(R.id.signin)
+        val ImageView = findViewById<ImageView>(R.id.imageView9)
 
-        textView.setOnClickListener {
-            startActivity(Intent(this, signin::class.java))
+        ImageView.setOnClickListener {
+            startActivity(Intent(this, Checklist::class.java))
             finish()
         }
         //body

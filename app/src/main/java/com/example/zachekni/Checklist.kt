@@ -5,17 +5,18 @@ import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.widget.ImageView
 
-class stars : AppCompatActivity() {
+class Checklist : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
-        setContentView(R.layout.activity_stars)
+        setContentView(R.layout.activity_checklist)
         //body
-        val ImageView = findViewById<ImageView>(R.id.imageView9)
+        val ImageView = findViewById<ImageView>(R.id.imageView37)
 
         ImageView.setOnClickListener {
-            startActivity(Intent(this, checklist::class.java))
+            startActivity(Intent(this, Delo::class.java))
             finish()
         }
         //body
     }
+
 }
